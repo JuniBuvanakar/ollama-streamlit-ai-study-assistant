@@ -1,0 +1,17 @@
+# Ollama + Streamlit AI Study Assistant
+# Install these packages inside your project's activated virtual environment.
+#
+# Setup:
+#   python -m pip install --upgrade pip
+#   pip install -r requirements.txt
+#
+# Run the application:
+#   streamlit run app.py
+#
+# Note:
+# Ollama must also be installed and running separately, and the model
+# used by app.py (qwen3:4b) must be available locally:
+#   ollama pull qwen3:4b
+
+streamlit
+ollama
